@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250" width="200" height="100">
+  <!-- Bee body -->
+  <ellipse cx="130" cy="120" rx="60" ry="40" fill="#f8c83c" />
+  
+  <!-- Stripes -->
+  <rect x="110" y="100" width="15" height="40" fill="black" opacity="0.2" />
+  <rect x="140" y="100" width="15" height="40" fill="black" opacity="0.2" />
+  
+  <!-- Wings -->
+  <ellipse cx="170" cy="90" rx="40" ry="30" fill="#ddd" opacity="0.7" transform="rotate(-30 170 90)" />
+  
+  <!-- Head -->
+  <circle cx="80" cy="110" r="20" fill="#f8c83c" />
+  <circle cx="85" cy="105" r="5" fill="black" />
+  
+  <!-- Antenna -->
+  <path d="M70 95 Q 60 75 65 65" stroke="black" stroke-width="2" fill="none" />
+  <circle cx="65" cy="65" r="4" fill="black" />
+  
+  <!-- Text -->
+  <text x="260" y="120" font-family="'Arial', sans-serif" font-size="60" font-style="italic" font-weight="bold">Bee</text>
+  <text x="270" y="170" font-family="'Arial', sans-serif" font-size="40">program</text>
+</svg> 

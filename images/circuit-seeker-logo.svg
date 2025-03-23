@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="200" height="120">
+  <!-- Infinity symbol for Circuit Seeker -->
+  <path d="M250 100 C 300 50, 350 50, 400 100 S 450 150, 400 200 S 300 250, 250 200 S 150 150, 100 200 S 50 250, 100 300 S 200 350, 250 300 S 350 250, 400 200" stroke="#03A9F4" stroke-width="20" fill="none" />
+  
+  <!-- Color segments -->
+  <path d="M250 100 C 300 50, 350 50, 400 100" stroke="#f8c83c" stroke-width="20" fill="none" />
+  <path d="M400 200 S 350 250, 250 200" stroke="#FF5722" stroke-width="20" fill="none" />
+  
+  <!-- Plus sign in the center -->
+  <rect x="240" y="130" width="20" height="70" fill="#03A9F4" />
+  <rect x="215" y="155" width="70" height="20" fill="#03A9F4" />
+  
+  <!-- Text -->
+  <text x="250" y="280" font-family="'Courier New', monospace" font-weight="bold" font-size="40" text-anchor="middle">CIRCUIT</text>
+  <text x="250" y="320" font-family="'Courier New', monospace" font-size="30" text-anchor="middle">SEEKER</text>
+</svg> 

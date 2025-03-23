@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catterpillar - Coming Soon | Robotics & AI Components</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <div class="coming-soon-wrapper">
+        <header>
+            <div class="logo">
+                <svg id="cat-logo" width="50" height="50" viewBox="0 0 80 80">
+                    <circle cx="40" cy="40" r="34" fill="#f8c83c"/>
+                    <circle cx="26" cy="30" r="6" fill="#333"/>
+                    <circle cx="54" cy="30" r="6" fill="#333"/>
+                    <path d="M26 50 Q40 60 54 50" stroke="#333" stroke-width="2" fill="none"/>
+                    <path d="M15 12 Q5 20 10 28" stroke="#333" stroke-width="2" fill="none"/>
+                    <path d="M65 12 Q75 20 70 28" stroke="#333" stroke-width="2" fill="none"/>
+                    <circle cx="26" cy="30" r="2" fill="#fff"/>
+                    <circle cx="54" cy="30" r="2" fill="#fff"/>
+                </svg>
+                <span>Catterpillar</span>
+            </div>
+        </header>
+
+        <main class="coming-soon-content">
+            <div class="coming-soon-left">
+                <h1>We're <span class="highlight">Coming Soon</span></h1>
+                <p class="tagline">Your one-stop destination for robotics and AI components</p>
+                
+                <div class="features">
+                    <div class="feature-item">
+                        <i class="fas fa-microchip"></i>
+                        <span>Advanced AI Hardware</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-robot"></i>
+                        <span>Robotics Components</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-code"></i>
+                        <span>Development Support</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Technical Resources</span>
+                    </div>
+                </div>
+                
+                <div class="countdown-container">
+                    <div class="countdown-item">
+                        <div class="countdown-value" id="days">00</div>
+                        <div class="countdown-label">Days</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-value" id="hours">00</div>
+                        <div class="countdown-label">Hours</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-value" id="minutes">00</div>
+                        <div class="countdown-label">Minutes</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-value" id="seconds">00</div>
+                        <div class="countdown-label">Seconds</div>
+                    </div>
+                </div>
+                
+                <div class="notification-form">
+                    <h3>Get notified when we launch</h3>
+                    <form id="notification-signup">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn primary">Notify Me</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="coming-soon-right">
+                <div class="circuit-animation">
+                    <div class="circuit-path"></div>
+                    <div class="pulse-dot dot1"></div>
+                    <div class="pulse-dot dot2"></div>
+                    <div class="pulse-dot dot3"></div>
+                </div>
+                <div class="robot-image">
+                    <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Robot Arm">
+                </div>
+            </div>
+        </main>
+        
+        <div class="crafted-by">
+            <p>Crafted by Catterpillar and team</p>
+        </div>
+        
+        <footer>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2023 Catterpillar. All rights reserved.</p>
+            <div class="contact-info">
+                <a href="mailto:info@catterpillar.tech"><i class="fas fa-envelope"></i> info@catterpillar.tech</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
